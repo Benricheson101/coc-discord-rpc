@@ -1457,9 +1457,10 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-"discord-rpc@https://github.com/SamJakob/discordjs-rpc.git":
+discord-rpc@^3.1.4:
   version "3.1.4"
-  resolved "https://github.com/SamJakob/discordjs-rpc.git#52e586ef017ff443daea5a16f6b12cd0c558e62b"
+  resolved "https://registry.yarnpkg.com/discord-rpc/-/discord-rpc-3.1.4.tgz#6d449a682e6a0dec4f0444d5f36f9ebfabaccf91"
+  integrity sha512-QaBu+gHica2SzgRAmTpuJ4J8DX9+fDwAqhvaie3hcbkU9WPqewEPh21pWdd/7vTI/JNuapU7PFm2ZKg3BTkbGg==
   dependencies:
     node-fetch "^2.6.1"
     ws "^7.3.1"
