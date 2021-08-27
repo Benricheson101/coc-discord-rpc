@@ -1457,13 +1457,14 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-discord-rpc@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/discord-rpc/-/discord-rpc-3.1.4.tgz#6d449a682e6a0dec4f0444d5f36f9ebfabaccf91"
-  integrity sha512-QaBu+gHica2SzgRAmTpuJ4J8DX9+fDwAqhvaie3hcbkU9WPqewEPh21pWdd/7vTI/JNuapU7PFm2ZKg3BTkbGg==
+"discord-rpc@https://github.com/Benricheson101/RPC#macos-fix":
+  version "4.0.1"
+  resolved "https://github.com/Benricheson101/RPC#8e8debe5beb00f4fc57976ded58604d995a3f4c7"
   dependencies:
     node-fetch "^2.6.1"
     ws "^7.3.1"
+  optionalDependencies:
+    register-scheme "github:devsnek/node-register-scheme"
 
 doctrine@1.5.0:
   version "1.5.0"
@@ -3988,7 +3989,7 @@ regexpp@^3.0.0, regexpp@^3.1.0:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.1.0.tgz#206d0ad0a5648cffbdb8ae46438f3dc51c9f78e2"
   integrity sha512-ZOIzd8yVsQQA7j8GCSlPGXwg5PfmA1mrq0JP4nGhh54LaKN3xdai/vHUDu74pKwV8OxseMS65u2NImosQcSD0Q==
 
-register-scheme@devsnek/node-register-scheme:
+register-scheme@devsnek/node-register-scheme, "register-scheme@github:devsnek/node-register-scheme":
   version "0.0.2"
   resolved "https://codeload.github.com/devsnek/node-register-scheme/tar.gz/e7cc9a63a1f512565da44cb57316d9fb10750e17"
   dependencies:
